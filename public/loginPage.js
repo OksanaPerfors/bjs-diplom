@@ -1,27 +1,5 @@
 "use strict";
 
-// class UserForm {
-//   loginFormCallback = (data) => {
-//     const user = ApiConnector.login(loginFormCallback());
-
-//     if (!user) {
-//       return setLoginErrorMessage("Пользователь не найден");
-//     } else {
-//       location.reload();
-//     }
-//   };
-
-//   registerFormCallback = (data) => {
-//     const newUser = ApiConnector.register(data, () => console.log(123, data));
-
-//     if (!newUser) {
-//       return setRegisterErrorMessage("Пользователь уже существует");
-//     } else {
-//       registerFormCallback();
-//     }
-//   };
-// }
-
 const userForm = new UserForm();
 
 userForm.loginFormCallback = (data) => {
